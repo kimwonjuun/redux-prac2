@@ -60,6 +60,7 @@ function Left1(props) {
   );
 }
 function Left2(props) {
+  console.log('2');
   return (
     <div>
       <h1>Left2 : </h1>
@@ -68,6 +69,8 @@ function Left2(props) {
   );
 }
 function Left3(props) {
+  // Left3 과 그 상위 컴포넌트 Left2 콘솔 찍어보기. parent 들은 re-rendering 되지 않음.
+  console.log('3');
   // 5. 리듀서를 Left3 에 표시하고 싶으면?
   // useSelector 를 사용한다. 무선으로 연결하는 것.
   // useSelector 는 함수를 인자로 받는다.
