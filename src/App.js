@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { createStore } from 'redux';
-// raect-redux 가 제공하는 중요 기능
+// raect-redux 가 제공하는 중요 기능.
 // 1. Provider: state 를 어떤 컴포넌트들에게 제공할 것인지에 대해 가장 바깥 울타리를 정의하는 것.
 // 2. useSelector: 어떤 state 값을 쓰고 싶은 지 선택할 때.
 // 3. useDispatch: state 값을 변경시킬 때.
